@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.*;
 import javax.swing.*;
 import javax.swing.text.*;
-import org.pd.zj.util.LoopedStreams;
 public class ConsoleTextArea extends JTextArea {
  public ConsoleTextArea(InputStream[] inStreams) {
   for (int i = 0; i < inStreams.length; ++i)
